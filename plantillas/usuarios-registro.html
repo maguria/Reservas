@@ -1,0 +1,14 @@
+<div id="registro" class="itemlogin ocultar">
+   <h2>Registro de usuarios</h2>
+    <form class="navbar-form navbar-right" id="formRegistro">
+            Introduzca su email: <input id="emailReg" type="text"><br/><br/>
+            Introduzca su clave: <input id="claveReg" type="password"><br/><br/>
+            Introduzca su alias: <input id="aliasReg" type="text"><br/><br/>
+             <div class="boton"><button id="btregistro" type="submit" class="btn btn-success btlogin" ng-click="cUsuarios.usuarioRegistro()">Registrarse</button></div>
+    </form>
+    
+    <p id="errorReg"></p>
+     <div class="boton"><button id="btusuarios" type="submit" class="btn btn-success btlogin" ng-click="cUsuarios.usuariosListado()">Usuarios</button></div>
+    
+    <usuarios-listado></usuarios-listado>
+</div>

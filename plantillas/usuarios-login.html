@@ -1,0 +1,20 @@
+
+<div id="login" class="itemlogin">
+   <h2>Acceso de usuarios</h2>
+    <form class="navbar-form navbar-right" id="formLogin">
+           Introduzca su email: <input id="email" type="text" ng-model="cUsuarios.usuario.email"><br/><br/>
+           Introduzca su clave:  <input id="clave" type="password" ng-model="cUsuarios.usuario.clave"><br/><br/>
+           <div class="boton"><button id="btlogin" type="submit" class="btn btn-success btlogin" ng-click="cUsuarios.usuarioLogin()">Acceder</button></div>
+    </form>
+    
+</div>
+<usuarios-registro></usuarios-registro>
+<div id="borde">
+    <p id="errorLog"></p>
+    <p id="sesion"></p>
+</div>
+<div id="botones"><tareas-usuario></tareas-usuario></div>
+<listatareas-usuario></listatareas-usuario>
+<div id="asigna" class="itemlogin ocultar borde">
+<usuarios-tarea></usuarios-tarea>
+</div>

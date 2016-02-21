@@ -1,0 +1,9 @@
+
+   <div id="listatareasusu" class="ocultar">
+    <div ng-repeat="tarea in cUsuarios.tareasUsu">
+        <table id="usutar"><tr><td>{{tarea.id_tarea}}</td><td><button id="btdelete" type="submit" class="btn btn-success btmenor" ng-click="cUsuarios.borrarTarea(tarea)">Borrar</button></td></tr></table>
+        
+        <div id="emailtarea">{{tarea.email}}</div>
+        
+</div>
+</div>
